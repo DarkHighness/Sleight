@@ -1,0 +1,9 @@
+itemGroup.Sleight=Sleight
+
+item.sleight.wooden_wand.name=木制法杖
+
+enum.wand_property.CAST_STRENGTH.name=法术强度
+enum.wand_property.CAST_SPEED.name=施法速度
+enum.wand_property.CAST_COST_DECAY.name=消耗衰减
+enum.wand_property.CAST_ELEMENT.name=元素
+enum.wand_property.rate.name=法杖评级
