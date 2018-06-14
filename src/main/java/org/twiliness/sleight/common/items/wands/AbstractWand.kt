@@ -31,6 +31,7 @@ abstract class AbstractWand(val material: WandMaterial) : SleightItem() {
                     capability.set(property)
                 }
             }
+            playerIn?.inventoryContainer?.detectAndSendChanges()
         }
     }
 
