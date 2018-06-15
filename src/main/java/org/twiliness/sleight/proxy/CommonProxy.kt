@@ -18,6 +18,7 @@ open class CommonProxy {
         BlockContainer.register()
         WandContainer.register()
         CapabilityContainer.register()
+
     }
 
     open fun init(event: FMLInitializationEvent) {
@@ -25,6 +26,6 @@ open class CommonProxy {
     }
 
     open fun postInit(event: FMLPostInitializationEvent) {
-
+        val url = ClassLoader.getSystemClassLoader().getResource("sleight.wooden_wand.png")
     }
 }
